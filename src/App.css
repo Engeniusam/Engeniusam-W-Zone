@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Macondo&family=Neonderthaw&family=Roboto:ital,wght@1,100;1,300&display=swap');
+.app{
+    background-image: url('cold.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app.warm{
+    background-image: url('warm.jpg');
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main{
+    min-height:100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,0.75));
+    padding: 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search__box{
+    width:100%;
+    margin:0 0 75px;
 }
+.search__box .search__bar{
+    display: block;
+    width:60%;
+    padding:15px;
 
-.App-link {
-  color: #61dafb;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: rgba(255,255,255,0.5);
+    border-radius:0px 0px 16px 16px;
+    margin: 25px auto 0px;
+
+    box-shadow: 0px 5px rgba(0,0,0,0.9);
+    color: #313131;
+    font-size: 20px;
+    transition: 0.4s ease;
+
 }
+.search__box .search__bar:focus{
+    background-color: rgba(255,255,255,0.75);
+}
+.location__box .location{
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+.location__box .date{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px rgba(50,50,70,0.5);
+    margin-top:15px;
+    font-family: 'Roboto', sans-serif;
+}
+.weather__box{
+    text-align:center;
+}
+.weather__box .temp{
+    position:relative;
+    display: inline-block;
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 16px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    padding:15px 25px;
+
+    color: #fff;
+    font-size:102px;
+    font-weight: 900;
+
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    text-align: center;
+    box-shadow:3px 6px rgba(0,0,0,0.2);
+}
+.weather__box .weather{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+.comName{
+    text-align: center;
+    font-size: 160%;
+    color: green;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;}
+
+.text__typo{
+    margin-top: 30px;
+    text-align: center;
+}
+.typo{
+    color:#fff;
+    font-family: 'Macondo', cursive;
+
+}
+.me{
+    margin-top: 35px;
+    text-align: center;
+    color:#fff;
+
+}
+a{
+    text-decoration: none;
+    color: greenyellow
 }
