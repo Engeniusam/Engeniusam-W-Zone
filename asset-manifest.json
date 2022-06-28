@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/engeniusam-w-zone/static/css/main.4079e630.css",
+    "main.js": "/engeniusam-w-zone/static/js/main.66d7da71.js",
+    "static/js/787.56cba268.chunk.js": "/engeniusam-w-zone/static/js/787.56cba268.chunk.js",
+    "static/media/warm.jpg": "/engeniusam-w-zone/static/media/warm.a420f33d8f12a09af4b6.jpg",
+    "static/media/cold.jpg": "/engeniusam-w-zone/static/media/cold.78de501afa2c8dbbb2b8.jpg",
+    "index.html": "/engeniusam-w-zone/index.html",
+    "main.4079e630.css.map": "/engeniusam-w-zone/static/css/main.4079e630.css.map",
+    "main.66d7da71.js.map": "/engeniusam-w-zone/static/js/main.66d7da71.js.map",
+    "787.56cba268.chunk.js.map": "/engeniusam-w-zone/static/js/787.56cba268.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4079e630.css",
+    "static/js/main.66d7da71.js"
+  ]
+}
